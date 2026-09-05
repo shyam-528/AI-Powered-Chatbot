@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 engine = ChatEngine(
     api_key=os.getenv("GEMINI_API_KEY"),
-    model=os.getenv("GEMINI_MODEL", "gemini-1.5-flash"),
+    model=os.getenv("GEMINI_MODEL", "gemini-3.6-flash"),
     system_prompt=os.getenv("SYSTEM_PROMPT"),
 )
 

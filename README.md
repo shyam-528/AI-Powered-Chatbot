@@ -133,7 +133,7 @@ All settings are managed via environment variables (see `.env.example`):
 | Variable         | Default           | Description                          |
 | ---------------- | ----------------- | ------------------------------------ |
 | `GEMINI_API_KEY` | —                 | Your Google Gemini API key           |
-| `GEMINI_MODEL`   | `gemini-1.5-flash`| Gemini model to use                  |
+| `GEMINI_MODEL`   | `gemini-3.6-flash`| Gemini model to use                  |
 | `SYSTEM_PROMPT`  | built-in default  | Custom persona for the bot           |
 | `PORT`           | `5000`            | Server port                          |
 | `FLASK_DEBUG`    | `0`               | Set to `1` for debug mode            |
